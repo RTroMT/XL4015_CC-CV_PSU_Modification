@@ -30,10 +30,10 @@ dc-psu/
 ├── README.md
 ├── DETAILS.md              # thiết kế, công thức, hiệu chuẩn, giao thức
 ├── firmware/
-│   ├── stm32/main.ino      # Blue Pill: CV (PWM), CC (MCP4725), đo (ADS1115), UART
-│   └── esp32/main.ino      # ESP32: UART, Wi-Fi, TCP server, ST7735
-└── pc/
-    └── dcpsu_gui.py        # GUI điều khiển (tkinter, chỉ thư viện chuẩn)
+│   ├── Full_CC-CV/Full_CC-CV.ino         # Blue Pill: CV (PWM), CC (MCP4725), đo (ADS1115), UART
+│   └── ESP32_Network_Slave/main.ino      # ESP32: UART, Wi-Fi, TCP server, ST7735
+└── powmote/
+    └── powmote.py        # GUI điều khiển (tkinter, chỉ thư viện chuẩn)
 ```
 
 ## Phần cứng chính
